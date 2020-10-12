@@ -1,0 +1,26 @@
+{
+  "name": "korioth_midterm",
+  "version": "1.0.0",
+  "description": "xkcd comic website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ks-csu/korioth_midterm.git"
+  },
+  "author": "Spencer Korioth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ks-csu/korioth_midterm/issues"
+  },
+  "homepage": "https://github.com/ks-csu/korioth_midterm#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "engines":{"node":"12.x"}
+}
