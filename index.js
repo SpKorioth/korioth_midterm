@@ -20,6 +20,10 @@ app.get('/',function(req, res){
     //return something to home page
     res.render('index');
 })
+//get random comic page /random
+app.get('/random', function(req, res){
+    res.render('random')
+})
 
 //get/post here
 
