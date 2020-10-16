@@ -40,9 +40,6 @@ app.get('/', function(req, res){
 })
 //get random comic page /random
 app.get('/random', function(req, res){
-    var currentComic = JSON.parse('http://xkcd.com/info.0.json');
-    //var randomNumber = Math.floor(Math.random() * (current.num - 1)) + 1;
-
     var randomNumber = Math.floor(Math.random() * 1999) + 1; 
     //let comicData;
     fetch('http://xkcd.com/' + randomNumber + '/info.0.json')
