@@ -6,5 +6,6 @@ Github: https://github.com/ks-csu/korioth_midterm
 
 Heroku: https://korioth-midterm-cpsc4125.herokuapp.com/
 
-Description: A website that displays an XKCD comic as well as the comic's information, such as the date of the comic, the title, and the description.
-The home page displays the comic of the day, and a second page will display a random comic. The second page should display a new comic every time the page is refreshed.
+Description: A website that displays an XKCD comic as well as the some of the comic's information, such as number, title, and date.
+The home page displays the comic of the day, and a second page displays a random comic. The second page displays a new comic every time the page is refreshed. 
+Both pages contain a link to the page for the comic on the xkcd website.
