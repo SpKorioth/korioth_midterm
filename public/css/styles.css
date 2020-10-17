@@ -9,3 +9,5 @@ p{padding-top:1em; color:gray;}
 main {line-height: 150%; text-align: left; padding: 20px 20px;}
 
 .jumbotron {padding:2em;}
+
+img {max-width: 100%; height: auto;}
