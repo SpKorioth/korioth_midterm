@@ -7,6 +7,7 @@ html
     max-width: 50em;
     background-color: darkgrey;
 }
+body{text-align:center;}
 
 h1, h2, h3, h4, nav {font-family: "Arial", sans-serif;}
 h1
