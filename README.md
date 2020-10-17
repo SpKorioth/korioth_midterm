@@ -1,6 +1,6 @@
 # korioth_midterm
 
-## Title: CPSC 4125 Midterm: XKCD comic website
+## Title: CPSC 4125 Midterm: xkcd comic website
 
 ### Author: Spencer Korioth ([@ks-csu](https://github.com/ks-csu))
 
