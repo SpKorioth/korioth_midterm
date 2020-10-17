@@ -17,11 +17,11 @@ Both pages contain a link to the page for the comic on the xkcd website.
 
 ### Resources used:
 
-[Node.js](https://nodejs.org/)
+1. [Node.js](https://nodejs.org/)
 
-[npm](https://www.npmjs.com/)
-- node-fetch
-- express
-- ejs
+2.  [npm](https://www.npmjs.com/)
+    - node-fetch
+    - express
+    - ejs
 
-[Bootstrap](https://getbootstrap.com/)
+3. [Bootstrap](https://getbootstrap.com/)
