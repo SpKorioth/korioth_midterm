@@ -16,22 +16,7 @@ app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
 //get home page /
-/*
-app.get('/',function(req, res){
-    //return something to home page
-    res.render('index');
-})
-*/
-//get random comic page /random
-/*
-app.get('/random', function(req, res){
-    res.render('random')
-})
-*/
-
-//get home page /
 app.get('/', function(req, res){
-    //let comicData;
     fetch('http://xkcd.com/info.0.json')
     .then(res => res.json())
     .then(data => {
@@ -41,7 +26,6 @@ app.get('/', function(req, res){
 //get random comic page /random
 app.get('/random', function(req, res){
     var randomNumber = Math.floor(Math.random() * 1999) + 1; 
-    //let comicData;
     fetch('http://xkcd.com/' + randomNumber + '/info.0.json')
     .then(res => res.json())
     .then(data => {
