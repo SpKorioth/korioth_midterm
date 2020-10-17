@@ -20,8 +20,8 @@ Both pages contain a link to the page for the comic on the xkcd website.
 1. [Node.js](https://nodejs.org/)
 
 2.  [npm](https://www.npmjs.com/)
-    - node-fetch
-    - express
-    - ejs
+    - [node-fetch](https://www.npmjs.com/package/node-fetch)
+    - [express](https://www.npmjs.com/package/express)
+    - [ejs](https://www.npmjs.com/package/ejs)
 
 3. [Bootstrap](https://getbootstrap.com/)
